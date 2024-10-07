@@ -11,5 +11,6 @@ interface UserDao {
 
     @Insert
     suspend fun insert(user: User)
+    fun insertAll(user: User)
 }
 
